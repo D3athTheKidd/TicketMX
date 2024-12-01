@@ -1,0 +1,55 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ticket de Compra</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            h1 {
+                text-align: center;
+                color: #333;
+            }
+            .ticket {
+                margin: 20px auto;
+                border: 1px solid #ddd;
+                padding: 10px;
+                width: 80%;
+            }
+            .ticket img {
+                max-width: 150px;
+            }
+            .item {
+                margin-bottom: 20px;
+            }
+            .qr {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tu Ticket de Compra</h1>
+        <div class="ticket">
+                            <div class="item">
+                    <h3>Circus Maximus Tour</h3>
+                    <p>Cantidad: 1</p>
+                    <p>Precio: $1,500.00</p>
+                    <img src="../assets/uploads/imagen.jpg" alt="Imagen del boleto">
+                    <div class="qr">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Nombre%3A+Circus+Maximus+Tour%2C+Cantidad%3A+1" alt="Código QR">                    </div>
+                </div>
+                            <div class="item">
+                    <h3>Cigarettes After Sex</h3>
+                    <p>Cantidad: 1</p>
+                    <p>Precio: $1,500.00</p>
+                    <img src="../assets/uploads/Cigarettes-After-Sex-en-Mexico.jpg" alt="Imagen del boleto">
+                    <div class="qr">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Nombre%3A+Cigarettes+After+Sex%2C+Cantidad%3A+1" alt="Código QR">                    </div>
+                </div>
+                    </div>
+    </body>
+    </html>
+    
